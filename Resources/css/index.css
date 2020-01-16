@@ -44,6 +44,7 @@ header {
   font-weight: 300;
   text-decoration: none;
   border-radius: 200px;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
 .btn-super:link,
@@ -51,11 +52,13 @@ header {
   background-color: #fa5205;
   border: 1px solid #fa5205;
   color: white;
-  margin-top: 30px;
+  margin-top: 3%;
 }
 
 .btn:hover,
 .btn:active {
   background-color: #d94704;
-  color: #ffe7dd;
+  color: #f8e3d9;
+  border-color: #ffffff;
+  border-width: 1;
 }
